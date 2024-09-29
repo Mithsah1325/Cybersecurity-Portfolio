@@ -1,0 +1,71 @@
+[
+  {
+    "title": "C++",
+    "imageSrc": "skills/"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title":"Firebase",
+    "imageSrc":"skills/firebase.png"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "skills/next.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "Unix/Linux",
+    "imageSrc": "skills/linux.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "skills/php.png"
+  },
+  {
+    "title": "Matplotlib",
+    "imageSrc": "skills/"
+  },
+  {
+    "title": "Wireshark",
+    "imageSrc": "skills/"
+  },
+  {
+    "title": "Burp Suite",
+    "imageSrc": "skills/"
+  },
+  {
+    "title": "Nessus",
+    "imageSrc": "skills/"
+  },
+  {
+    "title": "Kali Linux",
+    "imageSrc": "skills/"
+  }
+  
+]
