@@ -106,7 +106,7 @@ const CyberPortfolio = () => {
                   "Software Security",
                   "Risk Analysis",
                   "Software Design",
-                  "LINUX",
+                  "LINUX Administration",
                   "Database Programming",
                   "Network Security"
                 ].map((course, idx) => (
@@ -156,7 +156,7 @@ const CyberPortfolio = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <Shield className="w-4 h-4" />
-                  Forensic Tools, Wireshark
+                  Security Tools like Wireshark, Metasploit, NMap, Burp Suite
                 </li>
               </ul>
             </div>
@@ -197,7 +197,8 @@ const CyberPortfolio = () => {
               <p className="text-sm">Jun 2024 - Present</p>
               <ul className="mt-2 space-y-2 text-sm">
                 <li>• AI Chatbot development (NSF funded)</li>
-                <li>• Enterprise application development</li>
+                <li>• Collaborate with different teams to set basic security standards for new IT projects</li>
+                <li>• Create and update security documents to follow university rules and regulations</li>
               </ul>
             </div>
 
@@ -213,6 +214,7 @@ const CyberPortfolio = () => {
               <ul className="mt-2 space-y-2 text-sm">
                 <li>• Led lab sessions and mentored students</li>
                 <li>• Developed security exercises</li>
+                <li>• Created and delivered security awareness training materials to 50+ students</li>
               </ul>
             </div>
           </div>
@@ -223,19 +225,19 @@ const CyberPortfolio = () => {
             {[
               {
                 title: "Home Security Lab",
-                desc: "Virtual security environment with SIEM"
+                desc: "Developed a home security lab using Virtual Box and to simulate and analyze various security threats and defense mechanisms"
               },
               {
                 title: "Honeypot System",
-                desc: "Advanced threat analysis system"
+                desc: "Built and deployed a honeypot system to analyze attack patterns, enhancing threat detection and response strategies"
               },
               {
                 title: "Encryption Suite",
-                desc: "Custom cryptographic toolkit"
+                desc: "Developed an encryption-decryption tool to securely encode and decode sensitive data"
               },
               {
                 title: "Risk Framework",
-                desc: "Enterprise assessment for Cognizant"
+                desc: "Prepared a detailed Risk Management Plan for Cognizant (University Project)"
               },
               {
                 title: "Environmental Knowledge Learning Web App",
@@ -269,7 +271,7 @@ const CyberPortfolio = () => {
               },
               {
                 title: "CompTIA CYSA+ (CS0-003)",
-                period: "Feb 2025 - 2030"
+                period: "Mar 2025 - 2030"
               }
             ].map((cert, idx) => (
               <div key={idx} className={`p-4 rounded ${
