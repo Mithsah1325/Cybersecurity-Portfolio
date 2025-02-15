@@ -263,15 +263,15 @@ const CyberPortfolio = () => {
             {[
               {
                 title: "Google Cybersecurity Certificate",
-                period: "2025 - 2030"
+                period: "Feb 2025 - Jan 2030"
               },
               {
                 title: "Introduction to Generative AI",
-                period: "Aug 2024 - 2029"
+                period: "Aug 2024 - Jul 2029"
               },
               {
                 title: "CompTIA CYSA+ (CS0-003)",
-                period: "Mar 2025 - 2030"
+                period: "Mar 2025 - Feb 2030"
               }
             ].map((cert, idx) => (
               <div key={idx} className={`p-4 rounded ${
