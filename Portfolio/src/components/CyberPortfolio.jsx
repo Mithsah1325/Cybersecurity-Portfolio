@@ -265,6 +265,10 @@ const CyberPortfolio = () => {
                 title: "Google Cybersecurity Certificate",
                 period: "Feb 2025 - Jan 2030"
               },
+             {
+                title: "CS406: Information Security",
+                period: "Feb 2025 - Jan 2030"
+              },
               {
                 title: "Introduction to Generative AI",
                 period: "Aug 2024 - Jul 2029"
