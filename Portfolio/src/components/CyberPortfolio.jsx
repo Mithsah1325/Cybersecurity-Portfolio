@@ -262,11 +262,11 @@ const CyberPortfolio = () => {
           <div className="space-y-4">
             {[
               {
-                title: "Google Cybersecurity Certificate by Saylor Academy",
+                title: "Google Cybersecurity Certificate",
                 period: "Feb 2025 - Jan 2030"
               },
              {
-                title: "CS406: Information Security",
+                title: "CS406: Information Security by Saylor Academy",
                 period: "Feb 2025 - Jan 2030"
               },
               {
@@ -274,7 +274,7 @@ const CyberPortfolio = () => {
                 period: "Aug 2024 - Jul 2029"
               },
               {
-                title: "CompTIA CYSA+ (CS0-003)",
+                title: "CompTIA CYSA+ (CS0-003) by uCertify",
                 period: "Mar 2025 - Feb 2030"
               }
             ].map((cert, idx) => (
