@@ -262,7 +262,7 @@ const CyberPortfolio = () => {
           <div className="space-y-4">
             {[
               {
-                title: "Google Cybersecurity Certificate",
+                title: "Google Cybersecurity Certificate by Saylor Academy",
                 period: "Feb 2025 - Jan 2030"
               },
              {
