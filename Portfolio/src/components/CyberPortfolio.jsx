@@ -252,7 +252,7 @@ network protocols.
               },
               {
                 title: "Environmental Knowledge Learning Web App",
-                desc: "An interactive web app for primary school students to learn about environmental responsibility through"
+                desc: "Developed an Item Categorization Quiz where users classify objects (e.g., bottle, glass jar, banana peels) as compost, trash, or recyclable, with dynamic scoring based on correct or incorrect answers. Built a Chatbot for Item Disposal using OpenAI and Gemini generative AI, enabling users to input an object and receive accurate information about its classification (recyclable, compostable, or trash). Implemented a Plant Identification feature allowing users to upload photos of plants, providing information such as the plant’s name, scientific name, interesting facts, and common locations."
               },
               {
                 title: "Cybersecurity Awareness Game",
