@@ -136,7 +136,7 @@ const CyberPortfolio = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <Database className="w-4 h-4" />
-                  SQL, MongoDB 
+                  SQL, MongoDB, PostgreSQL 
                 </li>
               </ul>
             </div>
@@ -196,9 +196,15 @@ const CyberPortfolio = () => {
               <p className="text-sm">Center for Information Security</p>
               <p className="text-sm">Jun 2024 - Present</p>
               <ul className="mt-2 space-y-2 text-sm">
-                <li>• AI Chatbot development (NSF funded)</li>
-                <li>• Collaborate with different teams to set basic security standards for new IT projects</li>
-                <li>• Create and update security documents to follow university rules and regulations</li>
+                <li>• AI Chatbot development (NSF funded)Led hands-on phishing awareness workshops for 50+ students, achieving a 90% reduction in susceptibility
+rates through practical simulations.
+</li>
+                <li>• Conducted security audits and risk assessments, implementing mitigation strategies in an academic setting.
+                </li>
+                <li>• Performed NIST SP 800-53-aligned audits, resolving 15+ compliance gaps in firewall configurations and
+                network protocols</li>
+                <li>• Develop an AI-based secure RAG (Retrieval-Augmented Generation) chatbot for an upper-level Risk Management class, funded by the National Science Foundation (NSF).
+                </li>
               </ul>
             </div>
 
@@ -212,9 +218,14 @@ const CyberPortfolio = () => {
               </h3>
               <p className="text-sm">Aug 2024 - Dec 2024</p>
               <ul className="mt-2 space-y-2 text-sm">
-                <li>• Led lab sessions and mentored students</li>
-                <li>• Developed security exercises</li>
-                <li>• Created and delivered security awareness training materials to 50+ students</li>
+                <li>• Utilized strong verbal communication skills to conduct phishing awareness training for 50+ students.
+                </li>
+                <li>• Led hands-on phishing awareness workshops for 50+ students, achieving a 90% reduction in susceptibility rates through practical simulations.
+                </li>
+                <li>• Performed NIST SP 800-53-aligned audits, resolving 15+ compliance gaps in firewall configurations and
+network protocols.
+</li>         
+                <li>• Conducted security audits and risk assessments, implementing mitigation strategies in an academic setting.</li>
               </ul>
             </div>
           </div>
@@ -225,24 +236,28 @@ const CyberPortfolio = () => {
             {[
               {
                 title: "Home Security Lab",
-                desc: "Developed a home security lab using Virtual Box and to simulate and analyze various security threats and defense mechanisms"
+                desc: "Developed a segmented home security lab using VirtualBox, pfSense, and Kali Linux for penetration testing, simulating phishing campaigns and monitoring network traffic with Wireshark and Snort (IDS). Gained hands-on experience in identifying vulnerabilities, responding to attacks, and applied knowledge to improve phishing training and reduce cybersecurity risks in NKU roles."
               },
               {
                 title: "Honeypot System",
-                desc: "Built and deployed a honeypot system to analyze attack patterns, enhancing threat detection and response strategies"
-              },
+                desc: "Deployed a PostgreSQL honeypot in an isolated VirtualBox container with Fail2Ban for intrusion detection and Suricata (IDS/IPS/NSM) for real-time network traffic monitoring. Integrated ELK Stack (Elasticsearch, Logstash, Kibana) and Graylog for log aggregation and monitoring."
+              },              
               {
                 title: "Encryption Suite",
-                desc: "Developed an encryption-decryption tool to securely encode and decode sensitive data"
+                desc: "Developed an AI-based encryption and decryption system using Streamlit, integrating AES encryption for secure message handling and real-time decryption based on user input.Implemented cryptographic techniques with pycryptodome and base64 encoding to ensure secure transmission and retrieval of encrypted data. Designed an intuitive, user-friendly interface that allows seamless encryption and decryption processes with se cure key management."
               },
               {
-                title: "Risk Framework",
-                desc: "Prepared a detailed Risk Management Plan for Cognizant (University Project)"
+                title: "Risk Management Policy Research Project",
+                desc: "Conducted in-depth research on Risk Management strategies, focusing on Cognizant's approach to identifying, assessing, and mitigating risks across its operations. Analyzed the company's Risk Management Plan (RMP), including business continuity planning, asset protection, and third-party risk management. Evaluated risk management tools and methods used by major corporations to safeguard against financial, operational, and reputational risks."
               },
               {
                 title: "Environmental Knowledge Learning Web App",
                 desc: "An interactive web app for primary school students to learn about environmental responsibility through"
-              }
+              },
+              {
+                title: "Cybersecurity Awareness Game",
+                desc: "Developed an interactive cybersecurity awareness game to educate users on phishing, social engineering, and malware threats through real-world attack simulations."
+              }              
             ].map((project, idx) => (
               <div key={idx} className={`p-4 rounded ${
                 darkMode ? 'bg-zinc-900' : 'bg-white'
@@ -307,6 +322,7 @@ const CyberPortfolio = () => {
                 <li>• Coordinated marketing reaching 1000+ professionals</li>
                 <li>• Managed social media campaigns</li>
                 <li>• Coordinated Cyber Symposium 2024</li>
+                <li>• Led AI/Cybersecurity workshops on Securing Your Cloud Environment with 100+ attendees</li>
               </ul>
             </div>
 
