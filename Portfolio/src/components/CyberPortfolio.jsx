@@ -196,9 +196,6 @@ const CyberPortfolio = () => {
               <p className="text-sm">Center for Information Security</p>
               <p className="text-sm">Jun 2024 - Present</p>
               <ul className="mt-2 space-y-2 text-sm">
-                <li>• AI Chatbot development (NSF funded)Led hands-on phishing awareness workshops for 50+ students, achieving a 90% reduction in susceptibility
-rates through practical simulations.
-</li>
                 <li>• Conducted security audits and risk assessments, implementing mitigation strategies in an academic setting.
                 </li>
                 <li>• Performed NIST SP 800-53-aligned audits, resolving 15+ compliance gaps in firewall configurations and
