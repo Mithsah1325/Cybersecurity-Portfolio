@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Shield, Code, Lock, Database, Award, Cpu, 
-         FileCode, Briefcase, Cloud, Sun, Moon, Users } from 'lucide-react';
+         FileCode, Briefcase, Cloud, Sun, Moon, Users, ExternalLink } from 'lucide-react';
 
 const CyberPortfolio = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -56,28 +56,27 @@ const CyberPortfolio = () => {
                 Cybersecurity Specialist & Full-Stack Developer
               </p>
               <p className="text-sm mt-2">
-          Highland Heights, KY •{" "}
-  <a href="mailto:sahm1@mymail.nku.edu" className="text-green-500' : 'text-blue-500">
-    sahm1@mymail.nku.edu
-  </a> • 859-628-1803 •{" "}
-  <a 
-    href="https://github.com/Mithsah1325" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="text-green-500' : 'text-blue-500"
-  >
-    GitHub
-  </a> •{" "}
-  <a 
-    href="https://www.linkedin.com/in/mithsah/" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="text-green-500' : 'text-blue-500"
-  >
-    LinkedIn
-  </a>
-</p>
-
+                Highland Heights, KY •{' '}
+                <a href="mailto:sahm1@mymail.nku.edu" className={darkMode ? 'text-green-500' : 'text-blue-500'}>
+                  sahm1@mymail.nku.edu
+                </a>{' '}• 859-628-1803 •{' '}
+                <a 
+                  href="https://github.com/Mithsah1325" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className={darkMode ? 'text-green-500' : 'text-blue-500'}
+                >
+                  GitHub
+                </a>{' '}•{' '}
+                <a 
+                  href="https://www.linkedin.com/in/mithsah/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className={darkMode ? 'text-green-500' : 'text-blue-500'}
+                >
+                  LinkedIn
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -120,71 +119,112 @@ const CyberPortfolio = () => {
         </Section>
 
         <Section title="TECHNICAL ARSENAL" icon={Code}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`mb-2 ${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                Development
-              </h3>
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-center gap-2">
-                  <Code className="w-4 h-4" />
-                  JavaScript, React.js, Node.js, Python, C/C++
-                </li>
-                <li className="flex items-center gap-2">
-                  <Database className="w-4 h-4" />
-                  SQL, MongoDB, PostgreSQL 
-                </li>
-              </ul>
-            </div>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    {/* Development */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`mb-2 ${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
+        Development
+      </h3>
+      <ul className="space-y-2 text-sm">
+        <li className="flex items-center gap-2">
+          <Code className="w-4 h-4" />
+          JavaScript, React.js, Node.js, Python, C/C++, Bash
+        </li>
+        <li className="flex items-center gap-2">
+          <Database className="w-4 h-4" />
+          SQL, MongoDB, PostgreSQL, Firebase
+        </li>
+        <li className="flex items-center gap-2">
+          <Code className="w-4 h-4" />
+          Terraform, GitLab CI/CD, Google Cloud SDK
+        </li>
+      </ul>
+    </div>
 
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`mb-2 ${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                Security
-              </h3>
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-center gap-2">
-                  <Lock className="w-4 h-4" />
-                  IDS/IPS, SIEM (Splunk, ELK)
-                </li>
-                <li className="flex items-center gap-2">
-                  <Shield className="w-4 h-4" />
-                  Security Tools like Wireshark, Metasploit, NMap, Burp Suite
-                </li>
-              </ul>
-            </div>
+    {/* Security */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`mb-2 ${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
+        Security
+      </h3>
+      <ul className="space-y-2 text-sm">
+        <li className="flex items-center gap-2">
+          <Lock className="w-4 h-4" />
+          SIEM: Splunk, ELK, Devo, Microsoft Sentinel
+        </li>
+        <li className="flex items-center gap-2">
+          <Shield className="w-4 h-4" />
+          EDR: CrowdStrike, SentinelOne, Carbon Black, Defender for Endpoint
+        </li>
+        <li className="flex items-center gap-2">
+          <Cpu className="w-4 h-4" />
+          MITRE ATT&CK, Threat Research, Detection Engineering
+        </li>
+        <li className="flex items-center gap-2">
+          <Lock className="w-4 h-4" />
+          Security Tools: Wireshark, Metasploit, NMap, Burp Suite, Snort
+        </li>
+      </ul>
+    </div>
 
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`mb-2 ${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                Cloud
-              </h3>
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-center gap-2">
-                  <Cloud className="w-4 h-4" />
-                  AWS, Azure, Google Cloud
-                </li>
-                <li className="flex items-center gap-2">
-                  <Database className="w-4 h-4" />
-                  Docker, Kubernetes
-                </li>
-              </ul>
-            </div>
-          </div>
-        </Section>
+    {/* Cloud & Infrastructure */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`mb-2 ${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
+        Cloud & Infrastructure
+      </h3>
+      <ul className="space-y-2 text-sm">
+        <li className="flex items-center gap-2">
+          <Cloud className="w-4 h-4" />
+          AWS, Azure, Google Cloud Platform (GCP)
+        </li>
+        <li className="flex items-center gap-2">
+          <Database className="w-4 h-4" />
+          Docker, Kubernetes, Linux Workloads
+        </li>
+        <li className="flex items-center gap-2">
+          <Code className="w-4 h-4" />
+          Automating deployments with Terraform, GitLab CI/CD
+        </li>
+        <li className="flex items-center gap-2">
+          <Cpu className="w-4 h-4" />
+          Cloud Control Plane Threat Research
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  {/* Bonus Research & Evangelism Section */}
+  <div className="mt-6 p-4 rounded shadow-sm border border-dashed border-zinc-400">
+    <h3 className={`mb-2 font-semibold ${darkMode ? 'text-green-400' : 'text-blue-500'}`}>
+      Research & Evangelism
+    </h3>
+    <ul className="space-y-2 text-sm list-disc list-inside">
+      <li>Implement complex detections with Data Science & Engineering teams</li>
+      <li>Evangelize research via blogs, webinars, public speaking, and whitepapers</li>
+      <li>Assess detection efficacy using MITRE ATT&CK and industry standards</li>
+      <li>Discover novel attack techniques and TTPs</li>
+    </ul>
+  </div>
+</Section>
+
 
         <Section title="EXPERIENCE" icon={Briefcase}>
           <div className="space-y-4">
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                Threat Detection Co-Op | DeepSeas
+              </h3>
+              <p className="text-sm">Jun 2025 - Present · 3 mos</p>
+              <p className="text-sm">San Diego, California, United States · Remote</p>
+              <ul className="mt-2 space-y-2 text-sm">
+                <li>• Build virtual labs in AWS to simulate attacks and test detection rules across SentinelOne, Carbon Black, and CrowdStrike, improving threat coverage and reducing false positives.</li>
+                <li>• Create Devo (SIEM) dashboards and automate reports to visualize threat trends, detection gaps, and optimize response workflows.</li>
+              </ul>
+            </div>
+
             <div className={`p-4 rounded ${
               darkMode ? 'bg-zinc-900' : 'bg-white'
             }`}>
@@ -230,77 +270,154 @@ network protocols.
 
         <Section title="PROJECTS" icon={FileCode}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {[
-              {
-                title: "Home Security Lab",
-                desc: "Developed a segmented home security lab using VirtualBox, pfSense, and Kali Linux for penetration testing, simulating phishing campaigns and monitoring network traffic with Wireshark and Snort (IDS). Gained hands-on experience in identifying vulnerabilities, responding to attacks, and applied knowledge to improve phishing training and reduce cybersecurity risks in NKU roles."
-              },
-              {
-                title: "Honeypot System",
-                desc: "Deployed a PostgreSQL honeypot in an isolated VirtualBox container with Fail2Ban for intrusion detection and Suricata (IDS/IPS/NSM) for real-time network traffic monitoring. Integrated ELK Stack (Elasticsearch, Logstash, Kibana) and Graylog for log aggregation and monitoring."
-              },              
-              {
-                title: "Encryption Suite",
-                desc: "Developed an AI-based encryption and decryption system using Streamlit, integrating AES encryption for secure message handling and real-time decryption based on user input.Implemented cryptographic techniques with pycryptodome and base64 encoding to ensure secure transmission and retrieval of encrypted data. Designed an intuitive, user-friendly interface that allows seamless encryption and decryption processes with se cure key management."
-              },
-              {
-                title: "Risk Management Policy Research Project",
-                desc: "Conducted in-depth research on Risk Management strategies, focusing on Cognizant's approach to identifying, assessing, and mitigating risks across its operations. Analyzed the company's Risk Management Plan (RMP), including business continuity planning, asset protection, and third-party risk management. Evaluated risk management tools and methods used by major corporations to safeguard against financial, operational, and reputational risks."
-              },
-              {
-                title: "Environmental Knowledge Learning Web App",
-                desc: "Developed an Item Categorization Quiz where users classify objects (e.g., bottle, glass jar, banana peels) as compost, trash, or recyclable, with dynamic scoring based on correct or incorrect answers. Built a Chatbot for Item Disposal using OpenAI and Gemini generative AI, enabling users to input an object and receive accurate information about its classification (recyclable, compostable, or trash). Implemented a Plant Identification feature allowing users to upload photos of plants, providing information such as the plant’s name, scientific name, interesting facts, and common locations."
-              },
-              {
-                title: "Cybersecurity Awareness Game",
-                desc: "Developed an interactive cybersecurity awareness game to educate users on phishing, social engineering, and malware threats through real-world attack simulations."
-              }              
-            ].map((project, idx) => (
-              <div key={idx} className={`p-4 rounded ${
-                darkMode ? 'bg-zinc-900' : 'bg-white'
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              } flex items-center gap-2`}>
+                <a
+                  href="https://github.com/Mithsah1325/splunk-aws-log-analysis.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline flex items-center gap-1"
+                >
+                  Enterprise Log Analysis System using Splunk & AWS
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </h3>
+              <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+                <li>Built Splunk log analysis system ingesting 5GB+/day from 20+ servers via AWS S3 and Universal Forwarders.</li>
+                <li>Created 10+ real-time alerts and dashboards detecting brute-force and access threats; cut response time by 65%.</li>
+                <li>Automated SPL-driven log monitoring and visualization, boosting efficiency by 40% and supporting SOC2 compliance.</li>
+              </ul>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
               }`}>
-                <h3 className={`${
-                  darkMode ? 'text-green-400' : 'text-blue-400'
-                }`}>
-                  {project.title}
-                </h3>
-                <p className="text-sm mt-2">{project.desc}</p>
-              </div>
-            ))}
+                Home Security Lab
+              </h3>
+              <p className="text-sm mt-2">Developed a segmented home security lab using VirtualBox, pfSense, and Kali Linux for penetration testing, simulating phishing campaigns and monitoring network traffic with Wireshark and Snort (IDS). Gained hands-on experience in identifying vulnerabilities, responding to attacks, and applied knowledge to improve phishing training and reduce cybersecurity risks in NKU roles.</p>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                Honeypot System
+              </h3>
+              <p className="text-sm mt-2">Deployed a PostgreSQL honeypot in an isolated VirtualBox container with Fail2Ban for intrusion detection and Suricata (IDS/IPS/NSM) for real-time network traffic monitoring. Integrated ELK Stack (Elasticsearch, Logstash, Kibana) and Graylog for log aggregation and monitoring.</p>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                Encryption Suite
+              </h3>
+              <p className="text-sm mt-2">Developed an AI-based encryption and decryption system using Streamlit, integrating AES encryption for secure message handling and real-time decryption based on user input. Implemented cryptographic techniques with pycryptodome and base64 encoding to ensure secure transmission and retrieval of encrypted data. Designed an intuitive, user-friendly interface that allows seamless encryption and decryption processes with secure key management.</p>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                Risk Management Policy Research Project
+              </h3>
+              <p className="text-sm mt-2">Conducted in-depth research on Risk Management strategies, focusing on Cognizant's approach to identifying, assessing, and mitigating risks across its operations. Analyzed the company's Risk Management Plan (RMP), including business continuity planning, asset protection, and third-party risk management. Evaluated risk management tools and methods used by major corporations to safeguard against financial, operational, and reputational risks.</p>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                Environmental Knowledge Learning Web App
+              </h3>
+              <p className="text-sm mt-2">Developed an Item Categorization Quiz where users classify objects (e.g., bottle, glass jar, banana peels) as compost, trash, or recyclable, with dynamic scoring based on correct or incorrect answers. Built a Chatbot for Item Disposal using OpenAI and Gemini generative AI, enabling users to input an object and receive accurate information about its classification (recyclable, compostable, or trash). Implemented a Plant Identification feature allowing users to upload photos of plants, providing information such as the plant's name, scientific name, interesting facts, and common locations.</p>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                Cybersecurity Awareness Game
+              </h3>
+              <p className="text-sm mt-2">Developed an interactive cybersecurity awareness game to educate users on phishing, social engineering, and malware threats through real-world attack simulations.</p>
+            </div>
           </div>
         </Section>
 
         <Section title="CERTIFICATIONS" icon={Award}>
-          <div className="space-y-4">
-            {[
-              {
-                title: "Google Cybersecurity Certificate",
-                period: "Feb 2025 - Jan 2030"
-              },
-             {
-                title: "CS406: Information Security by Saylor Academy",
-                period: "Feb 2025 - Jan 2030"
-              },
-              {
-                title: "Introduction to Generative AI",
-                period: "Aug 2024 - Jul 2029"
-              },
-              {
-                title: "CompTIA CYSA+ (CS0-003) by uCertify",
-                period: "Mar 2025 - Feb 2030"
-              }
-            ].map((cert, idx) => (
-              <div key={idx} className={`p-4 rounded ${
-                darkMode ? 'bg-zinc-900' : 'bg-white'
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
               }`}>
-                <h3 className={`${
-                  darkMode ? 'text-green-400' : 'text-blue-400'
-                }`}>
-                  {cert.title}
-                </h3>
-                <p className="text-sm mt-1">{cert.period}</p>
-              </div>
-            ))}
+                Splunk: A SIEM Tool Bootcamp
+              </h3>
+              <p className="text-sm mt-1">Issued Aug 2025</p>
+              <p className="text-sm">Thinkcloudly • Credential ID: TC-082025-5Y2KT68-4075</p>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                Google Cybersecurity Certificate
+              </h3>
+              <p className="text-sm mt-1">Feb 2025 - Jan 2030</p>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                CS406: Information Security by Saylor Academy
+              </h3>
+              <p className="text-sm mt-1">Feb 2025 - Jan 2030</p>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                Introduction to Generative AI
+              </h3>
+              <p className="text-sm mt-1">Aug 2024 - Jul 2029</p>
+            </div>
+
+            <div className={`p-4 rounded ${
+              darkMode ? 'bg-zinc-900' : 'bg-white'
+            }`}>
+              <h3 className={`${
+                darkMode ? 'text-green-400' : 'text-blue-400'
+              }`}>
+                CompTIA CYSA+ (CS0-003) by uCertify
+              </h3>
+              <p className="text-sm mt-1">Mar 2025 - Feb 2030</p>
+            </div>
           </div>
         </Section>
 
