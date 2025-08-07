@@ -192,20 +192,6 @@ const CyberPortfolio = () => {
     </div>
   </div>
 
-  {/* Bonus Research & Evangelism Section */}
-  <div className="mt-6 p-4 rounded shadow-sm border border-dashed border-zinc-400">
-    <h3 className={`mb-2 font-semibold ${darkMode ? 'text-green-400' : 'text-blue-500'}`}>
-      Research & Evangelism
-    </h3>
-    <ul className="space-y-2 text-sm list-disc list-inside">
-      <li>Implement complex detections with Data Science & Engineering teams</li>
-      <li>Evangelize research via blogs, webinars, public speaking, and whitepapers</li>
-      <li>Assess detection efficacy using MITRE ATT&CK and industry standards</li>
-      <li>Discover novel attack techniques and TTPs</li>
-    </ul>
-  </div>
-</Section>
-
 
         <Section title="EXPERIENCE" icon={Briefcase}>
           <div className="space-y-4">
