@@ -119,79 +119,46 @@ const CyberPortfolio = () => {
         </Section>
 
         <Section title="TECHNICAL ARSENAL" icon={Code}>
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-    {/* Development */}
-    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
-      <h3 className={`mb-2 ${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
-        Development
-      </h3>
-      <ul className="space-y-2 text-sm">
-        <li className="flex items-center gap-2">
-          <Code className="w-4 h-4" />
-          JavaScript, React.js, Node.js, Python, C/C++, Bash
-        </li>
-        <li className="flex items-center gap-2">
-          <Database className="w-4 h-4" />
-          SQL, MongoDB, PostgreSQL, Firebase
-        </li>
-        <li className="flex items-center gap-2">
-          <Code className="w-4 h-4" />
-          Terraform, GitLab CI/CD, Google Cloud SDK
-        </li>
-      </ul>
-    </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {/* Development */}
+            <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+              <h3 className={`mb-2 ${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
+                Development
+              </h3>
+              <ul className="space-y-2 text-sm">
+                <li>• JavaScript, React.js, Node.js, Python, C/C++, Bash</li>
+                <li>• SQL, MongoDB, PostgreSQL, Firebase</li>
+                <li>• Terraform, GitLab CI/CD, Google Cloud SDK</li>
+              </ul>
+            </div>
 
-    {/* Security */}
-    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
-      <h3 className={`mb-2 ${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
-        Security
-      </h3>
-      <ul className="space-y-2 text-sm">
-        <li className="flex items-center gap-2">
-          <Lock className="w-4 h-4" />
-          SIEM: Splunk, ELK, Devo, Microsoft Sentinel
-        </li>
-        <li className="flex items-center gap-2">
-          <Shield className="w-4 h-4" />
-          EDR: CrowdStrike, SentinelOne, Carbon Black, Defender for Endpoint
-        </li>
-        <li className="flex items-center gap-2">
-          <Cpu className="w-4 h-4" />
-          MITRE ATT&CK, Threat Research, Detection Engineering
-        </li>
-        <li className="flex items-center gap-2">
-          <Lock className="w-4 h-4" />
-          Security Tools: Wireshark, Metasploit, NMap, Burp Suite, Snort
-        </li>
-      </ul>
-    </div>
+            {/* Security */}
+            <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+              <h3 className={`mb-2 ${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
+                Security
+              </h3>
+              <ul className="space-y-2 text-sm">
+                <li>• SIEM: Splunk, ELK, Devo, Microsoft Sentinel</li>
+                <li>• EDR: CrowdStrike, SentinelOne, Carbon Black, Defender for Endpoint</li>
+                <li>• MITRE ATT&CK, Threat Research, Detection Engineering</li>
+                <li>• Security Tools: Wireshark, Metasploit, NMap, Burp Suite, Snort</li>
+              </ul>
+            </div>
 
-    {/* Cloud & Infrastructure */}
-    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
-      <h3 className={`mb-2 ${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
-        Cloud & Infrastructure
-      </h3>
-      <ul className="space-y-2 text-sm">
-        <li className="flex items-center gap-2">
-          <Cloud className="w-4 h-4" />
-          AWS, Azure, Google Cloud Platform (GCP)
-        </li>
-        <li className="flex items-center gap-2">
-          <Database className="w-4 h-4" />
-          Docker, Kubernetes, Linux Workloads
-        </li>
-        <li className="flex items-center gap-2">
-          <Code className="w-4 h-4" />
-          Automating deployments with Terraform, GitLab CI/CD
-        </li>
-        <li className="flex items-center gap-2">
-          <Cpu className="w-4 h-4" />
-          Cloud Control Plane Threat Research
-        </li>
-      </ul>
-    </div>
-  </div>
-
+            {/* Cloud & Infrastructure */}
+            <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+              <h3 className={`mb-2 ${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
+                Cloud & Infrastructure
+              </h3>
+              <ul className="space-y-2 text-sm">
+                <li>• AWS, Azure, Google Cloud Platform (GCP)</li>
+                <li>• Docker, Kubernetes, Linux Workloads</li>
+                <li>• Automating deployments with Terraform, GitLab CI/CD</li>
+                <li>• Cloud Control Plane Threat Research</li>
+              </ul>
+            </div>
+          </div>
+        </Section>
 
         <Section title="EXPERIENCE" icon={Briefcase}>
           <div className="space-y-4">
@@ -203,7 +170,7 @@ const CyberPortfolio = () => {
               }`}>
                 Threat Detection Co-Op | DeepSeas
               </h3>
-              <p className="text-sm">Jun 2025 - Present · 3 mos</p>
+              <p className="text-sm">Jun 2025 - Present</p>
               <p className="text-sm">San Diego, California, United States · Remote</p>
               <ul className="mt-2 space-y-2 text-sm">
                 <li>• Build virtual labs in AWS to simulate attacks and test detection rules across SentinelOne, Carbon Black, and CrowdStrike, improving threat coverage and reducing false positives.</li>
