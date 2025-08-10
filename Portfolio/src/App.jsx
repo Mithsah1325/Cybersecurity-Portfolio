@@ -4,7 +4,7 @@ import CyberPortfolio from './components/CyberPortfolio'
 function App() {
   return (
     <div>
-      <CyberPortfolio />
+      <Portfolio />
     </div>
   )
 }
