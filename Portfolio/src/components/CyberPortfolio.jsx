@@ -187,7 +187,7 @@ const CyberPortfolio = () => {
                 Secure Web Development Assistant | Northern Kentucky University
               </h3>
               <p className="text-sm">Center for Information Security</p>
-              <p className="text-sm">Jun 2024 - Present</p>
+              <p className="text-sm">Jun 2024 - Jun 2025</p>
               <ul className="mt-2 space-y-2 text-sm">
                 <li>• Conducted security audits and risk assessments, implementing mitigation strategies in an academic setting.
                 </li>
