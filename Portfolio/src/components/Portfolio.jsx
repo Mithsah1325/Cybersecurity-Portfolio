@@ -33,7 +33,7 @@ const CyberPortfolio = () => {
           darkMode ? 'bg-green-500/20' : 'bg-blue-500/20'
         }`}
       >
-        {darkMode ? (
+        {darkMode? (
           <Sun className="w-6 h-6 text-green-500" />
         ) : (
           <Moon className="w-6 h-6 text-blue-500" />
@@ -85,7 +85,7 @@ const CyberPortfolio = () => {
       <main className="max-w-4xl mx-auto px-6 py-12">
         <Section title="EDUCATION" icon={Award}>
           <div className={`p-4 rounded ${
-            darkMode ? 'bg-zinc-900' : 'bg-white'
+            darkMode ? 'bg-zinc-900': 'bg-white'
           }`}>
             <h3 className={`text-lg ${
               darkMode ? 'text-green-400' : 'text-blue-400'
@@ -163,7 +163,7 @@ const CyberPortfolio = () => {
         <Section title="EXPERIENCE" icon={Briefcase}>
           <div className="space-y-4">
             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
+              darkMode ? 'bg-zinc-900': 'bg-white'
             }`}>
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
@@ -180,7 +180,7 @@ const CyberPortfolio = () => {
             </div>
 
             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
+              darkMode ? 'bg-zinc-900': 'bg-white'
             }`}>
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
@@ -208,14 +208,14 @@ const CyberPortfolio = () => {
               </h3>
               <p className="text-sm">Aug 2024 - Dec 2024</p>
               <ul className="mt-2 space-y-2 text-sm">
-                <li>• Utilized strong verbal communication skills to conduct phishing awareness training for 50+ students.
+                <li>• Elevated cybersecurity awareness by leading interactive phishing workshops for 50+ students, resulting in a 90% reduction in phishing susceptibility rates through hands-on simulations.
                 </li>
-                <li>• Led hands-on phishing awareness workshops for 50+ students, achieving a 90% reduction in susceptibility rates through practical simulations.
+                <li>• Improved student learning outcomes by delivering engaging lectures, demos, and one-on-one guidance, leveraging strong communication skills to simplify complex cybersecurity concepts.
                 </li>
                 <li>• Performed NIST SP 800-53-aligned audits, resolving 15+ compliance gaps in firewall configurations and
 network protocols.
 </li>         
-                <li>• Conducted security audits and risk assessments, implementing mitigation strategies in an academic setting.</li>
+                <li>• Supported faculty in curriculum delivery by preparing lab materials and mentoring students on secure coding, phishing defense, and risk management fundamentals.</li>
               </ul>
             </div>
           </div>
@@ -224,7 +224,7 @@ network protocols.
         <Section title="PROJECTS" icon={FileCode}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
+              darkMode ? 'bg-zinc-900': 'bg-white'
             }`}>
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
@@ -247,7 +247,7 @@ network protocols.
             </div>
 
             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
+              darkMode ? 'bg-zinc-900': 'bg-white'
             }`}>
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
@@ -258,7 +258,7 @@ network protocols.
             </div>
 
             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
+              darkMode ? 'bg-zinc-900': 'bg-white'
             }`}>
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
@@ -269,7 +269,7 @@ network protocols.
             </div>
 
             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
+              darkMode ? 'bg-zinc-900': 'bg-white'
             }`}>
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
@@ -280,7 +280,7 @@ network protocols.
             </div>
 
             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
+              darkMode ? 'bg-zinc-900': 'bg-white'
             }`}>
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
@@ -291,7 +291,7 @@ network protocols.
             </div>
 
             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
+              darkMode ? 'bg-zinc-900': 'bg-white'
             }`}>
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
