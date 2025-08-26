@@ -211,10 +211,7 @@ const CyberPortfolio = () => {
                 <li>• Elevated cybersecurity awareness by leading interactive phishing workshops for 50+ students, resulting in a 90% reduction in phishing susceptibility rates through hands-on simulations.
                 </li>
                 <li>• Improved student learning outcomes by delivering engaging lectures, demos, and one-on-one guidance, leveraging strong communication skills to simplify complex cybersecurity concepts.
-                </li>
-                <li>• Performed NIST SP 800-53-aligned audits, resolving 15+ compliance gaps in firewall configurations and
-network protocols.
-</li>         
+                </li>        
                 <li>• Supported faculty in curriculum delivery by preparing lab materials and mentoring students on secure coding, phishing defense, and risk management fundamentals.</li>
               </ul>
             </div>
