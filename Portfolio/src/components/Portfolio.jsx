@@ -190,17 +190,16 @@ const CyberPortfolio = () => {
               <p className="text-sm">Center for Information Security</p>
               <p className="text-sm">Jun 2024 - Present</p>
               <ul className="mt-2 space-y-2 text-sm">
-                <li>• Conducted security audits and risk assessments, implementing mitigation strategies in an academic setting.
+                <li>• Strengthened university network security posture by conducting security audits and risk assessments, implementing mitigation strategies that proactively reduced vulnerabilities in academic systems.
                 </li>
-                <li>• Performed NIST SP 800-53-aligned audits, resolving 15+ compliance gaps in firewall configurations and
-                network protocols</li>
-                <li>• Develop an AI-based secure RAG (Retrieval-Augmented Generation) chatbot for an upper-level Risk Management class, funded by the National Science Foundation (NSF).
+                <li>• Improved compliance with NIST SP 800-53 by identifying and resolving 15+ gaps in firewall configurations and network protocols, reducing institutional risk exposure.</li>
+                <li>• Advanced cybersecurity education and innovation by developing an AI-powered secure RAG chatbot for a Risk Management course (funded by the National Science Foundation), enabling students to access tailored academic and risk management resources securely.
                 </li>
               </ul>
             </div>
 
             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
+              darkMode ? 'bg-zinc-900': 'bg-white'
             }`}>
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
