@@ -173,8 +173,9 @@ const CyberPortfolio = () => {
               <p className="text-sm">Jun 2025 - Present · 3 mos</p>
               <p className="text-sm">San Diego, California, United States · Remote</p>
               <ul className="mt-2 space-y-2 text-sm">
-                <li>• Build virtual labs in AWS to simulate attacks and test detection rules across SentinelOne, Carbon Black, and CrowdStrike, improving threat coverage and reducing false positives.</li>
-                <li>• Create Devo (SIEM) dashboards and automate reports to visualize threat trends, detection gaps, and optimize response workflows.</li>
+                <li>• Strengthen enterprise threat detection by building AWS-based attack simulation labs, enabling proactive testing of SentinelOne, Carbon Black, and CrowdStrike detection rules; reduced false positives and enhanced coverage across advanced attack vectors.</li>
+                <li>• Enhance security visibility and response efficiency by developing Devo SIEM dashboards and automated threat trend reports; deployed 1000+ MITRE ATT&CK-aligned custom alerts that improved advanced attack detection and reduced mean time to respond (MTTR) by 30%.
+</li>
               </ul>
             </div>
 
