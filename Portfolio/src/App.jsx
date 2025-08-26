@@ -1,5 +1,5 @@
 import React from 'react'
-import CyberPortfolio from './components/CyberPortfolio'
+import Portfolio from './components/Portfolio'
 
 function App() {
   return (
