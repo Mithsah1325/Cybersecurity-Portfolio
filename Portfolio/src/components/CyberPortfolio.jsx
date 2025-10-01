@@ -57,8 +57,8 @@ const CyberPortfolio = () => {
               </p>
               <p className="text-sm mt-2">
                 Highland Heights, KY •{' '}
-                <a href="mailto:sahm1@mymail.nku.edu" className={darkMode ? 'text-green-500' : 'text-blue-500'}>
-                  sahm1@mymail.nku.edu
+                <a href="mailto:mithlesh.sah1803@gmail.com" className={darkMode ? 'text-green-500' : 'text-blue-500'}>
+                  mithlesh.sah1803@gmail.com
                 </a>{' '}• 859-628-1803 •{' '}
                 <a 
                   href="https://github.com/Mithsah1325" 
@@ -184,16 +184,17 @@ const CyberPortfolio = () => {
               <h3 className={`${
                 darkMode ? 'text-green-400' : 'text-blue-400'
               }`}>
-                Secure Web Development Assistant | Northern Kentucky University
+                Information Technology Assistant | Northern Kentucky University
               </h3>
               <p className="text-sm">Center for Information Security</p>
               <p className="text-sm">Jun 2024 - Jun 2025</p>
               <ul className="mt-2 space-y-2 text-sm">
-                <li>• Conducted security audits and risk assessments, implementing mitigation strategies in an academic setting.
+                <li>• Led phishing awareness workshops and hands-on simulations for 50+ students, cutting phishing susceptibility by 90%.
                 </li>
-                <li>• Performed NIST SP 800-53-aligned audits, resolving 15+ compliance gaps in firewall configurations and
-                network protocols</li>
-                <li>• Develop an AI-based secure RAG (Retrieval-Augmented Generation) chatbot for an upper-level Risk Management class, funded by the National Science Foundation (NSF).
+                <li>• Delivered lectures, demos, and mentoring to simplify complex cybersecurity concepts and strengthen student learning outcomes.</li>
+                <li>• Conducted vulnerability assessments and implemented remediation, reducing campus security incidents by 40%.
+                </li>
+                <li>• Improved NIST SP 800-53 compliance by resolving 15+ network and firewall gaps, lowering institutional risk exposure.
                 </li>
               </ul>
             </div>
