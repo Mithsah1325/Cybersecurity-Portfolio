@@ -211,109 +211,116 @@ const CyberPortfolio = () => {
               <ul className="mt-2 space-y-2 text-sm">
                 <li>• Utilized strong verbal communication skills to conduct phishing awareness training for 50+ students.
                 </li>
-                <li>• Led hands-on phishing awareness workshops for 50+ students, achieving a 90% reduction in susceptibility rates through practical simulations.
-                </li>
-                <li>• Performed NIST SP 800-53-aligned audits, resolving 15+ compliance gaps in firewall configurations and
-network protocols.
-</li>         
                 <li>• Conducted security audits and risk assessments, implementing mitigation strategies in an academic setting.</li>
               </ul>
             </div>
           </div>
         </Section>
 
-        <Section title="PROJECTS" icon={FileCode}>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              } flex items-center gap-2`}>
-                <a
-                  href="https://github.com/Mithsah1325/splunk-aws-log-analysis.git"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline flex items-center gap-1"
-                >
-                  Enterprise Log Analysis System using Splunk & AWS
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </h3>
-              <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
-                <li>Built Splunk log analysis system ingesting 5GB+/day from 20+ servers via AWS S3 and Universal Forwarders.</li>
-                <li>Created 10+ real-time alerts and dashboards detecting brute-force and access threats; cut response time by 65%.</li>
-                <li>Automated SPL-driven log monitoring and visualization, boosting efficiency by 40% and supporting SOC2 compliance.</li>
-              </ul>
-            </div>
+        <Section title="PROJECTS & CYBERSECURITY LABS" icon={FileCode}>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                Home Security Lab
-              </h3>
-              <p className="text-sm mt-2">Developed a segmented home security lab using VirtualBox, pfSense, and Kali Linux for penetration testing, simulating phishing campaigns and monitoring network traffic with Wireshark and Snort (IDS). Gained hands-on experience in identifying vulnerabilities, responding to attacks, and applied knowledge to improve phishing training and reduce cybersecurity risks in NKU roles.</p>
-            </div>
+    {/* Enterprise Log Analysis System */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'} flex items-center gap-2`}>
+        <a
+          href="https://github.com/Mithsah1325/splunk-aws-log-analysis.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline flex items-center gap-1"
+        >
+          Enterprise Log Analysis System using Splunk & AWS
+          <ExternalLink className="w-3 h-3" />
+        </a>
+      </h3>
+      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+        <li>Built a Splunk log analysis system ingesting 5GB+/day from 20+ servers via AWS S3 and Universal Forwarders.</li>
+        <li>Created 10+ real-time alerts and dashboards detecting brute-force and access threats; reduced response time by 65%.</li>
+        <li>Automated SPL-driven log monitoring and visualization, boosting efficiency by 40% and supporting SOC2 compliance.</li>
+      </ul>
+    </div>
 
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                Honeypot System
-              </h3>
-              <p className="text-sm mt-2">Deployed a PostgreSQL honeypot in an isolated VirtualBox container with Fail2Ban for intrusion detection and Suricata (IDS/IPS/NSM) for real-time network traffic monitoring. Integrated ELK Stack (Elasticsearch, Logstash, Kibana) and Graylog for log aggregation and monitoring.</p>
-            </div>
+    {/* Cybersecurity Awareness Training & Labs */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
+        Cybersecurity Awareness Training & Hands-on Labs (TryHackMe – Top 3% Ranked)
+      </h3>
+      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+        <li>Ranked in the Top 3% globally with 117+ completed labs in penetration testing, web exploitation, and network defense.</li>
+        <li>Earned 21 badges/certificates across Linux, OWASP Top 10, API Security, Metasploit, Burp Suite, and Risk Management.</li>
+        <li>Applied skills in real-world attack simulations including EternalBlue, phishing, Endpoint Security, and DevSecOps pipeline security.</li>
+      </ul>
+    </div>
 
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                Encryption Suite
-              </h3>
-              <p className="text-sm mt-2">Developed an AI-based encryption and decryption system using Streamlit, integrating AES encryption for secure message handling and real-time decryption based on user input. Implemented cryptographic techniques with pycryptodome and base64 encoding to ensure secure transmission and retrieval of encrypted data. Designed an intuitive, user-friendly interface that allows seamless encryption and decryption processes with secure key management.</p>
-            </div>
+    {/* Home Security Lab */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>Home Security Lab</h3>
+      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+        <li>Developed a segmented home security lab using VirtualBox, pfSense, and Kali Linux for penetration testing.</li>
+        <li>Simulated phishing campaigns and monitored network traffic with Wireshark and Snort (IDS).</li>
+        <li>Gained hands-on experience identifying vulnerabilities, responding to attacks, and improving phishing training in NKU roles.</li>
+      </ul>
+    </div>
 
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                Risk Management Policy Research Project
-              </h3>
-              <p className="text-sm mt-2">Conducted in-depth research on Risk Management strategies, focusing on Cognizant's approach to identifying, assessing, and mitigating risks across its operations. Analyzed the company's Risk Management Plan (RMP), including business continuity planning, asset protection, and third-party risk management. Evaluated risk management tools and methods used by major corporations to safeguard against financial, operational, and reputational risks.</p>
-            </div>
+    {/* Honeypot System */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>Honeypot System</h3>
+      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+        <li>Deployed a PostgreSQL honeypot in an isolated VirtualBox container with Fail2Ban for intrusion detection.</li>
+        <li>Monitored real-time network traffic with Suricata (IDS/IPS/NSM).</li>
+        <li>Integrated ELK Stack (Elasticsearch, Logstash, Kibana) and Graylog for log aggregation and monitoring.</li>
+      </ul>
+    </div>
 
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                Environmental Knowledge Learning Web App
-              </h3>
-              <p className="text-sm mt-2">Developed an Item Categorization Quiz where users classify objects (e.g., bottle, glass jar, banana peels) as compost, trash, or recyclable, with dynamic scoring based on correct or incorrect answers. Built a Chatbot for Item Disposal using OpenAI and Gemini generative AI, enabling users to input an object and receive accurate information about its classification (recyclable, compostable, or trash). Implemented a Plant Identification feature allowing users to upload photos of plants, providing information such as the plant's name, scientific name, interesting facts, and common locations.</p>
-            </div>
+    {/* Encryption Suite */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>Encryption Suite</h3>
+      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+        <li>Developed an AI-based encryption/decryption system using Streamlit and AES encryption.</li>
+        <li>Implemented cryptographic techniques with pycryptodome and base64 encoding for secure data transmission.</li>
+        <li>Designed a user-friendly interface for seamless encryption, decryption, and key management.</li>
+      </ul>
+    </div>
 
-            <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                Cybersecurity Awareness Game
-              </h3>
-              <p className="text-sm mt-2">Developed an interactive cybersecurity awareness game to educate users on phishing, social engineering, and malware threats through real-world attack simulations.</p>
-            </div>
-          </div>
-        </Section>
+    {/* Risk Management Policy Research Project */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>Risk Management Policy Research Project</h3>
+      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+        <li>Conducted in-depth research on Cognizant’s risk management strategies, including business continuity and third-party risk assessment.</li>
+        <li>Evaluated risk management tools and methods to mitigate financial, operational, and reputational risks.</li>
+      </ul>
+    </div>
+
+    {/* Environmental Knowledge Learning Web App */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>Environmental Knowledge Learning Web App</h3>
+      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+        <li>Built an Item Categorization Quiz for classifying objects as compost, trash, or recyclable with dynamic scoring.</li>
+        <li>Developed a Chatbot using OpenAI/Gemini AI for item disposal guidance.</li>
+        <li>Added a Plant Identification feature providing plant names, facts, and locations via uploaded photos.</li>
+      </ul>
+    </div>
+
+    {/* Cybersecurity Awareness Game */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>Cybersecurity Awareness Game</h3>
+      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+        <li>Developed an interactive game educating users on phishing, social engineering, and malware threats.</li>
+      </ul>
+    </div>
+
+    {/* Home Lab Security Projects */}
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>Home Lab Security Projects</h3>
+      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
+        <li>Performed security operations tasks including incident response, vulnerability management, intrusion detection, log monitoring, and SIEM maintenance using Splunk, ELK, and Snort.</li>
+        <li>Documented lab work demonstrating compliance with CIA (confidentiality, integrity, availability) principles, applying skills transferable to healthcare cybersecurity.</li>
+      </ul>
+    </div>
+
+  </div>
+</Section>
+
 
         <Section title="CERTIFICATIONS" icon={Award}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
