@@ -243,7 +243,11 @@ const CyberPortfolio = () => {
     {/* Cybersecurity Awareness Training & Labs */}
     <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
       <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
-        Cybersecurity Awareness Training & Hands-on Labs (TryHackMe – Top 3% Ranked)
+        <a href="https://tryhackme.com/p/mithsah1325" target="_blank"
+          rel="noopener noreferrer"
+          className="underline flex items-center gap-1">Cybersecurity Awareness Training & Hands-on Labs (TryHackMe – Top 3% Ranked)
+          <ExternalLink className="w-3 h-3" />
+          </a>
       </h3>
       <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
         <li>Ranked in the Top 3% globally with 117+ completed labs in penetration testing, web exploitation, and network defense.</li>
