@@ -313,14 +313,6 @@ const CyberPortfolio = () => {
       </ul>
     </div>
 
-    {/* Home Lab Security Projects */}
-    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
-      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>Home Lab Security Projects</h3>
-      <ul className="text-sm mt-2 space-y-1 list-disc list-inside">
-        <li>Performed security operations tasks including incident response, vulnerability management, intrusion detection, log monitoring, and SIEM maintenance using Splunk, ELK, and Snort.</li>
-        <li>Documented lab work demonstrating compliance with CIA (confidentiality, integrity, availability) principles, applying skills transferable to healthcare cybersecurity.</li>
-      </ul>
-    </div>
 
   </div>
 </Section>
