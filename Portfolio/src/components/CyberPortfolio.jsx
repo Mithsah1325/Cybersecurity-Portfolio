@@ -187,7 +187,7 @@ const CyberPortfolio = () => {
                 Information Technology Assistant | Northern Kentucky University
               </h3>
               <p className="text-sm">Center for Information Security</p>
-              <p className="text-sm">Jun 2024 - Jun 2025</p>
+              <p className="text-sm">Jun 2023 - Jun 2025</p>
               <ul className="mt-2 space-y-2 text-sm">
                 <li>• Led phishing awareness workshops and hands-on simulations for 50+ students, cutting phishing susceptibility by 90%.
                 </li>
