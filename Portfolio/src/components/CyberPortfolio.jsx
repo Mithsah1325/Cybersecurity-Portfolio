@@ -82,7 +82,18 @@ const CyberPortfolio = () => {
         </div>
       </header>
 
+      
+
       <main className="max-w-4xl mx-auto px-6 py-12">
+
+        <Section title="ABOUT ME" icon={Shield}>
+          <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+            <p className="text-base leading-relaxed">
+              Information Security Analyst with 2+ years of hands-on experience in threat detection, incident response, and cloud security across enterprise environments, including DeepSeas (Cyber Defense) and Northern Kentucky University. Skilled in SIEM (Splunk, ELK, Devo), Python-based automation, and AWS/Azure security architecture. Improved MTTR by 30% through scalable detection pipelines and security automation. Demonstrated excellence in cross-functional collaboration, risk management, and process improvement to enhance compliance and cyber resilience
+            </p>
+          </div>
+        </Section>
+
         <Section title="EDUCATION" icon={Award}>
           <div className={`p-4 rounded ${
             darkMode ? 'bg-zinc-900' : 'bg-white'
