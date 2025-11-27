@@ -330,18 +330,19 @@ const CyberPortfolio = () => {
 
 
         <Section title="CERTIFICATIONS" icon={Award}>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-             <div className={`p-4 rounded ${
-              darkMode ? 'bg-zinc-900' : 'bg-white'
-            }`}>
-              <h3 className={`${
-                darkMode ? 'text-green-400' : 'text-blue-400'
-              }`}>
-                <a href="https://www.credly.com/badges/12bc16a3-3b39-41c0-9705-bc9cedbb7412/public_url"CompTIA Security+ </a>
-              </h3>
-              <p className="text-sm mt-1">Issued Nov 2025</p>
-              <p className="text-sm">CompTIA</p>
-                      
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+    <div className={`p-4 rounded ${darkMode ? 'bg-zinc-900' : 'bg-white'}`}>
+      <h3 className={`${darkMode ? 'text-green-400' : 'text-blue-400'}`}>
+        <a 
+          href="https://www.credly.com/badges/12bc16a3-3b39-41c0-9705-bc9cedbb7412/public_url"
+        >
+          CompTIA Security+
+        </a>
+      </h3>
+      <p className="text-sm mt-1">Issued Nov 2025</p>
+      <p className="text-sm">CompTIA</p>
+    </div>       
              <div className={`p-4 rounded ${
               darkMode ? 'bg-zinc-900' : 'bg-white'
             }`}>
